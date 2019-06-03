@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPU Deployment", "UPU Deplo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalProjectUpdater Plugin", "UniversalProjectUpdater Plugin\UniversalProjectUpdater Plugin.csproj", "{826CEA3F-005B-42D9-8D11-6178985FACB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{885AD769-F695-4386-890D-28B8974F71FF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{826CEA3F-005B-42D9-8D11-6178985FACB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{826CEA3F-005B-42D9-8D11-6178985FACB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{826CEA3F-005B-42D9-8D11-6178985FACB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{885AD769-F695-4386-890D-28B8974F71FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{885AD769-F695-4386-890D-28B8974F71FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{885AD769-F695-4386-890D-28B8974F71FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{885AD769-F695-4386-890D-28B8974F71FF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

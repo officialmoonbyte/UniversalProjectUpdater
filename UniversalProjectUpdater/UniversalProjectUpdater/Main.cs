@@ -31,6 +31,7 @@ namespace Moonbyte.Net.UniversalProjectUpdater
             string externalip = new WebClient().DownloadString("http://icanhazip.com");
             if (externalip.Contains(Dns.GetHostAddresses(new Uri("http://moonbyte.us").Host)[0].ToString())) { ServerIP = "192.168.0.16"; }
 
+            MoonbyteServerConnection = new UniversalClient.UniversalClient(false);
             MoonbyteServerConnection.ConnectToRemoteServer(ServerIP, ServerPort);
             applicationName = ApplicationName;
         }
