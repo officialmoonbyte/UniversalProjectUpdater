@@ -26,7 +26,7 @@ namespace Moonbyte.Net.UniversalProjectUpdater
         /// <summary>
         /// Initiailize the connections and values of UniversalProjectFramework
         /// </summary>
-        public UniversalProjectUpdater(string ApplicationName, string ServerIP = "moonbyte.net", int ServerPort = 7777)
+        public UniversalProjectUpdater(string ApplicationName, string ServerIP = "moonbyte.us", int ServerPort = 7777)
         {
             string externalip = new WebClient().DownloadString("http://icanhazip.com");
             if (externalip.Contains(Dns.GetHostAddresses(new Uri("http://moonbyte.us").Host)[0].ToString())) { ServerIP = "192.168.0.16"; }
